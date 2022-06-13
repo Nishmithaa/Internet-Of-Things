@@ -16,3 +16,7 @@ https://wokwi.com/projects/334347782067323474
 
 **PIR sensor**
 https://wokwi.com/projects/334347041012449875
+
+
+**Ultra sonic sensor**
+https://wokwi.com/projects/334346755679191635
