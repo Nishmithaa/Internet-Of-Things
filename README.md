@@ -10,3 +10,7 @@ C:\Users\cs\Documents\INTERNET OF THINGS.docx
 
 **Temparature and humidity sensor**<br>
 https://wokwi.com/projects/334344386331542099<br>
+
+**IR sensor**
+https://wokwi.com/projects/334347782067323474
+
