@@ -8,5 +8,5 @@ C:\Users\cs\Documents\INTERNET OF THINGS.docx
 1.https://wokwi.com/projects/333797089965245011
  2.https://wokwi.com/projects/333806073021465171
 
-**Temparature and humidity sensor**
-https://wokwi.com/projects/334344386331542099
+**Temparature and humidity sensor**<br>
+https://wokwi.com/projects/334344386331542099<br>
