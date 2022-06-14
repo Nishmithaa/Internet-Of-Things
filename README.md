@@ -33,3 +33,7 @@ https://wokwi.com/projects/334433247916196435
 **Motion sensor with LED**
 https://wokwi.com/projects/334433528781472340
 
+**Motion senser with buzzer**
+https://wokwi.com/projects/334433841383998034
+
+**Ultrasonic buzzer**
