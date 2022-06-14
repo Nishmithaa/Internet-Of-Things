@@ -20,3 +20,6 @@ https://wokwi.com/projects/334347041012449875
 
 **Ultra sonic sensor**
 https://wokwi.com/projects/334346755679191635
+
+**LED fade**
+https://wokwi.com/projects/334432117252424275
