@@ -26,3 +26,6 @@ https://wokwi.com/projects/334432117252424275
 
 **LED button**
 https://wokwi.com/projects/334433004924437074
+
+**Motion sensor**
+https://wokwi.com/projects/334433247916196435
