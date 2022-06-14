@@ -29,3 +29,7 @@ https://wokwi.com/projects/334433004924437074
 
 **Motion sensor**
 https://wokwi.com/projects/334433247916196435
+
+**Motion sensor with LED**
+https://wokwi.com/projects/334433528781472340
+
