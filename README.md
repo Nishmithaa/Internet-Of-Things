@@ -49,3 +49,5 @@ https://wokwi.com/projects/334976347856175699
 **Servo motor contrlled by potentiometer**
 https://wokwi.com/projects/334976852055556691
 
+**Button servo motor**
+https://wokwi.com/projects/334977481574449747
