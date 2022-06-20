@@ -2,52 +2,52 @@
 
 
 
-**word document**
-C:\Users\cs\Documents\INTERNET OF THINGS.docx
+**word document**<br>
+C:\Users\cs\Documents\INTERNET OF THINGS.docx<br>
 
-1.https://wokwi.com/projects/333797089965245011
- 2.https://wokwi.com/projects/333806073021465171
+1.https://wokwi.com/projects/333797089965245011<br>
+ 2.https://wokwi.com/projects/333806073021465171<br>
 
 **Temparature and humidity sensor**<br>
 https://wokwi.com/projects/334344386331542099<br>
 
-**IR sensor**
-https://wokwi.com/projects/334347782067323474
+**IR sensor**<br>
+https://wokwi.com/projects/334347782067323474<br>
 
-**PIR sensor**
-https://wokwi.com/projects/334347041012449875
-
-
-**Ultra sonic sensor**
-https://wokwi.com/projects/334346755679191635
-
-**LED fade**
-https://wokwi.com/projects/334432117252424275
-
-**LED button**
-https://wokwi.com/projects/334433004924437074
-
-**Motion sensor**
-https://wokwi.com/projects/334433247916196435
-
-**Motion sensor with LED**
-https://wokwi.com/projects/334433528781472340
-
-**Motion senser with buzzer**
-https://wokwi.com/projects/334433841383998034
-
-**Ultrasonic buzzer**
-https://wokwi.com/projects/334434213071684180
+**PIR sensor**<br>
+https://wokwi.com/projects/334347041012449875<br>
 
 
-**Ultra sonic LED**
-https://wokwi.com/projects/334434780177236562
+**Ultra sonic sensor**<br>
+https://wokwi.com/projects/334346755679191635<br>
 
-**Servomotor**
-https://wokwi.com/projects/334976347856175699
+**LED fade**<br>
+https://wokwi.com/projects/334432117252424275<br>
 
-**Servo motor contrlled by potentiometer**
-https://wokwi.com/projects/334976852055556691
+**LED button**<br>
+https://wokwi.com/projects/334433004924437074<br>
 
-**Button servo motor**
-https://wokwi.com/projects/334977481574449747
+**Motion sensor**<br>
+https://wokwi.com/projects/334433247916196435<br>
+
+**Motion sensor with LED**<br>
+https://wokwi.com/projects/334433528781472340<br>
+
+**Motion senser with buzzer**<br>
+https://wokwi.com/projects/334433841383998034<br>
+
+**Ultrasonic buzzer**<br>
+https://wokwi.com/projects/334434213071684180<br>
+
+
+**Ultra sonic LED**<br>
+https://wokwi.com/projects/334434780177236562<br>
+
+**Servomotor**<br>
+https://wokwi.com/projects/334976347856175699<br>
+
+**Servo motor contrlled by potentiometer****<br>
+https://wokwi.com/projects/334976852055556691<br>
+
+**Button servo motor**<br>
+https://wokwi.com/projects/334977481574449747<br>
