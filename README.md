@@ -43,5 +43,9 @@ https://wokwi.com/projects/334434213071684180
 **Ultra sonic LED**
 https://wokwi.com/projects/334434780177236562
 
-**Servometer**
+**Servomotor**
 https://wokwi.com/projects/334976347856175699
+
+**Servo motor contrlled by potentiometer**
+https://wokwi.com/projects/334976852055556691
+
