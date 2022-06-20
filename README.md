@@ -51,3 +51,6 @@ https://wokwi.com/projects/334976852055556691<br>
 
 **Button servo motor**<br>
 https://wokwi.com/projects/334977481574449747<br>
+
+**servo meter using ultrasonic**
+https://wokwi.com/projects/334979604864303699
