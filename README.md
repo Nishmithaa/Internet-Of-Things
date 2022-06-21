@@ -55,5 +55,8 @@ https://wokwi.com/projects/334977481574449747<br>
 **servo meter using ultrasonic**<br>
 https://wokwi.com/projects/334979604864303699<br>
 
-**using buzzer and resistor**<br>
+**buzzer beep**<br>
 https://wokwi.com/projects/335066186469343826<br>
+
+**Buzzer beep using pushbutton**<br>
+https://wokwi.com/projects/335068830961238612<br>
