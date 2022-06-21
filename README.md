@@ -60,3 +60,6 @@ https://wokwi.com/projects/335066186469343826<br>
 
 **Buzzer beep using pushbutton**<br>
 https://wokwi.com/projects/335068830961238612<br>
+
+**Ultra sonic buzzer beep**<br>
+https://wokwi.com/projects/334434213071684180<br>
