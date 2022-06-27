@@ -63,3 +63,6 @@ https://wokwi.com/projects/335068830961238612<br>
 
 **Ultra sonic buzzer beep**<br>
 https://wokwi.com/projects/334434213071684180<br>
+
+**Ultrasonic buzzer with LED**<br>
+https://wokwi.com/projects/335610630487671378<br>
