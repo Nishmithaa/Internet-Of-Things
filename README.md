@@ -68,194 +68,194 @@ https://wokwi.com/projects/334434213071684180<br>
 https://wokwi.com/projects/335610630487671378<br>
 
 
-https://wokwi.com/projects/336966830711112275 - LED
-https://wokwi.com/projects/336967978479256147 - 3 LED
+https://wokwi.com/projects/336966830711112275 - LED<br>
+https://wokwi.com/projects/336967978479256147 - 3 LED<br>
 
-//HARDWARE
+//HARDWARE<br>
 
-   ULTRASONIC_SENSOR
+   ULTRASONIC_SENSOR<br>
 
-   const int trigPin = 13; //D7
-   const int echoPin = 12; //D6
+   const int trigPin = 13; //D7<br>
+   const int echoPin = 12; //D6<br>
 
-   long duration;
-   float distanceCm;
-   float distanceInch;
+   long duration;<br>
+   float distanceCm;<br>
+   float distanceInch;<br>
 
-   void setup() {
-           Serial.begin(9600); // Starting Serial Terminal
-   }
+   void setup()<br> {<br>
+           Serial.begin(9600); // Starting Serial Terminal<br>
+   }<br>
 
-   void loop() {
-      long duration, inches, cm;
-      pinMode(trigPin, OUTPUT);
-      digitalWrite(trigPin, LOW);
-      delayMicroseconds(2);
-      digitalWrite(trigPin, HIGH);
-      delayMicroseconds(10);
-      digitalWrite(trigPin, LOW);
-      pinMode(echoPin, INPUT);
-      duration = pulseIn(echoPin, HIGH);
-      inches = microsecondsToInches(duration);
-      cm = microsecondsToCentimeters(duration);
-      Serial.print(inches);
-      Serial.print("in, ");
-      Serial.print(cm);
-      Serial.print("cm");
-      Serial.println();
-      delay(1000);
-   }
+   void loop()<br> {<br>
+      long duration, inches, cm;<br>
+      pinMode(trigPin, OUTPUT);<br>
+      digitalWrite(trigPin, LOW);<br>
+      delayMicroseconds(2);<br>
+      digitalWrite(trigPin, HIGH);<br>
+      delayMicroseconds(10);<br>
+      digitalWrite(trigPin, LOW);<br>
+      pinMode(echoPin, INPUT);<br>
+      duration = pulseIn(echoPin, HIGH);<br>
+      inches = microsecondsToInches(duration);<br>
+      cm = microsecondsToCentimeters(duration);<br>
+      Serial.print(inches);<br>
+      Serial.print("in, ");<br>
+      Serial.print(cm);<br>
+      Serial.print("cm");<br>
+      Serial.println();<br>
+      delay(1000);<br>
+   }<br>
 
-   long microsecondsToInches(long microseconds) {
-       return microseconds / 74 / 2;
-   }
+   long microsecondsToInches(long microseconds)<br> {<br>
+       return microseconds / 74 / 2;<br>
+   }<br>
 
-  long microsecondsToCentimeters(long microseconds) {
-    return microseconds / 29 / 2;
-   }
+  long microsecondsToCentimeters(long microseconds)<br> {<br>
+    return microseconds / 29 / 2;<br>
+   }<br>
 
 
 
-DHT11
+DHT11<br>
 
-    #include <Adafruit_Sensor.h>
-    #include <DHT.h>;
-    #define DHTPIN 13     // what pin we're connected to
-    #define DHTTYPE DHT11   // DHT 22  (AM2302)
-    DHT dht(DHTPIN, DHTTYPE); //// Initialize DHT sensor for normal 16mhz Arduino
+    #include <Adafruit_Sensor.h><br>
+    #include <DHT.h>;<br>
+    #define DHTPIN 13 <br>    // what pin we're connected to
+    #define DHTTYPE DHT11 <br>  // DHT 22  (AM2302)
+    DHT dht(DHTPIN, DHTTYPE);<br> //// Initialize DHT sensor for normal 16mhz Arduino
     //Variables
-    int chk;
-    float hum;  //Stores humidity value
-    float temp; //Stores temperature value
-    void setup()
-    {
-      Serial.begin(9600);
-      dht.begin();
-    }
-    void loop()
-   {
-       delay(2000);
-       //Read data and store it to variables hum and temp
-       hum = dht.readHumidity();
+    int chk;<br>
+    float hum; <br> //Stores humidity value
+    float temp;<br> //Stores temperature value
+    void setup()<br>
+    {<br>
+      Serial.begin(9600);<br>
+      dht.begin();<br>
+    }<br>
+    void loop()<br>
+   {<br>
+       delay(2000);<br>
+       //Read data and store it to variables hum and temp<br>
+       hum = dht.readHumidity();<br>
        temp= dht.readTemperature();
        //Print temp and humidity values to serial monitor
-       Serial.print("Humidity: ");
-       Serial.print(hum);
-       Serial.print(" %, Temp: ");
-       Serial.print(temp);
-       Serial.println(" Celsius");
-       delay(1000); //Delay 2 sec.
-   }
+       Serial.print("Humidity: ");<br>
+       Serial.print(hum);<br>
+       Serial.print(" %, Temp: ");<br>
+       Serial.print(temp);<br>
+       Serial.println(" Celsius");<br>
+       delay(1000);<br> //Delay 2 sec.
+   }<br>
  
  
- RGB
+ RGB<br>
  
- int red = D1;
- int green = D6;
- int blue = D7;
- //GROUND IS CONNECTED TO 3V 
- void setup() {
-   pinMode(red, OUTPUT);
-   pinMode(green, OUTPUT);
-   pinMode(blue, OUTPUT);
+ int red = D1;<br>
+ int green = D6;<br>
+ int blue = D7;<br>
+ //GROUND IS CON<br>NECTED TO 3V 
+ void setup()<br> {
+   pinMode(red, OUTPUT);<br>
+   pinMode(green, OUTPUT);<br>
+   pinMode(blue, OUTPUT);<br>
 
- }
+ }<br>
 
- void loop() {
-   displayColor(0b100); //RED
-   delay(1000);
-   displayColor(0b010); //GREEN
-   delay(1000);
-   displayColor(0b001); //BLUE
-   delay(1000);
-   displayColor(0b101); //MAGENTA
-   delay(1000);
-   displayColor(0b011); //CYAN
-   delay(1000);
-   displayColor(0b110); //YELLOW
-   delay(1000);
-   displayColor(0b111); //WHITE
-   delay(1000);
- }
+ void loop() {<br>
+   displayColor(0b100);<br> //RED
+   delay(1000);<br>
+   displayColor(0b010); <br>//GREEN
+   delay(1000);<br>
+   displayColor(0b001); <br>//BLUE
+   delay(1000);<br>
+   displayColor(0b101); <br>//MAGENTA
+   delay(1000);<br>
+   displayColor(0b011); <br>//CYAN
+   delay(1000);<br>
+   displayColor(0b110); <br>//YELLOW
+   delay(1000);<br>
+   displayColor(0b111);<br> //WHITE
+   delay(1000);<br>
+ }<br>
 
- void displayColor(byte color) {
-   digitalWrite(red, !bitRead(color, 2));
-   digitalWrite(green, !bitRead(color, 1));
-   digitalWrite(blue, !bitRead(color, 0));
- }
+ void displayColor(byte color)<br> {<br>
+   digitalWrite(red, !bitRead(color, 2));<br>
+   digitalWrite(green, !bitRead(color, 1));<br>
+   digitalWrite(blue, !bitRead(color, 0));<br>
+ }<br>
 
 
-IR_LED
-  int ir=D7;
- int led=D5;
- void setup() {
-   // put your setup code here, to run once:
-   pinMode(ir,INPUT);
-     pinMode(led,OUTPUT);
-     Serial.begin(9600);
+IR_LED<br>
+  int ir=D7;<br>
+ int led=D5;<br>
+ void setup()<br> {<br>
+   // put your setup code here, to run once:<br>
+   pinMode(ir,INPUT);<br>
+     pinMode(led,OUTPUT);<br>
+     Serial.begin(9600);<br>
 
- }
+ }<br>
 
- void loop() {
-   // put your main code here, to run repeatedly:
-   int irvalue=digitalRead(ir);
-   if(irvalue==LOW)
-   {
-     Serial.println("LOW");
-     digitalWrite(led,HIGH);
-   }
-   else
-   {
-     Serial.println("HIGH");
-     digitalWrite(led,LOW);
-   }
- delay(100);
- }
+ void loop()<br> {<br>
+   // put your main code here, to run repeatedly:<br>
+   int irvalue=digitalRead(ir);<br>
+   if(irvalue==LOW)<br>
+   {<br>
+     Serial.println("LOW");<br>
+     digitalWrite(led,HIGH);<br>
+   }<br>
+   else<br>
+   {<br>
+     Serial.println("HIGH");<br>
+     digitalWrite(led,LOW);<br>
+   }<br>
+ delay(100);<br>
+ }<br>
 </br>
 </br>
 </br>
-     LDR
-     const int ldrPin=A0;
-     void setup() {
-       Serial.begin(9600);
-       pinMode(ldrPin,INPUT);
-     }
-     void loop() {
-       int rawData = analogRead(ldrPin);   
-       Serial.println(rawData);
-       delay(1000);
-     }
-</br>
-</br>
-</br>
+     LDR<br>
+     const int ldrPin=A0;<br>
+     void setup() {<br>
+       Serial.begin(9600);<br>
+       pinMode(ldrPin,INPUT);<br>
+     }<br>
+     void loop()<br> {<br>
+       int rawData = analogRead(ldrPin);  <br> 
+       Serial.println(rawData);<br>
+       delay(1000);<br>
+     }<br>
+</br><br>
+</br><br>
+</br><br>
 
- LDR_LED
+ LDR_LED<br>
 
- int ldr=A0;//Set A0(Analog Input) for LDR.
- int value=0;
- int led=D1;
- void setup() {
- Serial.begin(9600);
- pinMode(led,OUTPUT);
- }
+ int ldr=A0;//Set A0(Analog Input) for LDR.<br>
+ int value=0;<br>
+ int led=D1;<br>
+ void setup()<br> {<br>
+ Serial.begin(9600);<br>
+ pinMode(led,OUTPUT);<br>
+ }<br>
 
- void loop() {
- value=analogRead(ldr);//Reads the Value of LDR(light).
- Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.
- Serial.println(value);
- if(value<50)
-   {
-     digitalWrite(led,HIGH);//Makes the LED glow in Dark.
-   }
-   else
-   {
-     digitalWrite(led,LOW);//Turns the LED OFF in Light.
-   }
-   delay(1000);
- }\
- </br>
- </br>
- LED_CHASER
+ void loop()<br> {<br>
+ value=analogRead(ldr);//Reads the Value of LDR(light).<br>
+ Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.<br>
+ Serial.println(value);<br>
+ if(value<50)<br>
+   {<br>
+     digitalWrite(led,HIGH);//Makes the LED glow in Dark.<br>
+   }<br>
+   else<br>
+   {<br>
+     digitalWrite(led,LOW);//Turns the LED OFF in Light.<br>
+   }<br>
+   delay(1000);<br>
+ }\<br>
+ </br><br>
+ </br><br>
+ LED_CHASER<br>
  
 int pinsCount=6;                        // declaring the integer variable pinsCount
 int pins[] = {D0,D1,D7,D5,D3,D2};          // declaring the array pins[]
