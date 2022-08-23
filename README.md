@@ -279,3 +279,6 @@ void loop() {
 
   }
 }
+
+
+Liquid crystal-https: //wokwi.com/projects/322062421191557714
