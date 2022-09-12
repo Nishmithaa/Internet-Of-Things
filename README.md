@@ -314,3 +314,7 @@ void loop(){
     digitalWrite (led, LOW);
     }
 }
+
+
+* Seven segment digit**
+https://wokwi.com/projects/342585727360434772
