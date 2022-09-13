@@ -318,3 +318,34 @@ void loop(){
 
 * Seven segment digit**
 https://wokwi.com/projects/342585727360434772
+**Joystick**
+http://wokwi.com/projects/296234816685212169
+**DHT on esp**
+https://wokwi.com/projects/322410731508073042
+**LCD screen with and buzzer and LED**
+ https://wokwi.com/projects/290056311044833800
+ https://wokwi.com/projects/290043622233997832
+ **Electronic safe**
+https://wokwi.com/projects/libraries/demo/electronic-safe
+**LED with graph bar**
+https://wokwi.com/projects/309829489359061570
+
+
+ **Soil moisture**
+ const int sensor_pin = A0;  /* Connect Soil moisture analog sensor pin to A0 of NodeMCU */
+
+void setup() {
+  Serial.begin(9600); /* Define baud rate for serial communication */
+}
+
+void loop() {
+  float moisture_percentage;
+
+  moisture_percentage = ( 100.00 - ( (analogRead(sensor_pin)/1023.00) * 100.00 ) );
+
+  Serial.print("Soil Moisture(in Percentage) = ");
+  Serial.print(moisture_percentage);
+  Serial.println("%");
+
+  delay(1000);
+}
